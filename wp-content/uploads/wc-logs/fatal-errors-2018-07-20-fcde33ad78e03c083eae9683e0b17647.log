@@ -1,0 +1,364 @@
+2018-07-20T16:41:22+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:20
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_remove_add_to_cart(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/plu
+
+2018-07-20T16:41:38+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:20
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_remove_add_to_cart(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/plu
+
+2018-07-20T16:45:41+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:20
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_remove_add_to_cart(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/plu
+
+2018-07-20T16:45:46+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:20
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_remove_add_to_cart(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/plu
+
+2018-07-20T16:56:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:20
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_remove_add_to_cart(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/plu
+
+2018-07-20T17:26:44+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:20
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_remove_add_to_cart(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/plu
+
+2018-07-20T17:26:47+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:20
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_remove_add_to_cart(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/plu
+
+2018-07-20T18:18:35+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:20
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_remove_add_to_cart(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/plu
+
+2018-07-20T20:13:01+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:24
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:13:08+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:23
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:13:16+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:24
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:13:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:23
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:19:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function var_dump_pre(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php on line 23 and exactly 1 expected in /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/functions.php:590
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php(23): var_dump_pre()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#6 /var/www/wwsc/wordpress/wp-includes/plugi
+
+2018-07-20T20:28:42+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:23
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:28:51+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:23
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:29:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function var_dump_pre(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php on line 23 and exactly 1 expected in /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/functions.php:590
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php(23): var_dump_pre()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#6 /var/www/wwsc/wordpress/wp-includes/plugi
+
+2018-07-20T20:29:59+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:23
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:42:35+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:23
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:44:11+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:23
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:47:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Wwsc::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php on line 29 and exactly 1 expected in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:13
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(29): Wwsc->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): contruct_wwsc('')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/wwsc/wordpress/wp-settings.php(327): do_action('plugins_loaded')
+#5 /var/www/wwsc/wordpress/wp-config.php(90): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-blog-header.php(13): require_once('/var/www/wwsc/w...')
+#8 /var/www/wwsc/wordpress/index.php(17): require('/var/www/wwsc/w...')
+#9 {main
+
+2018-07-20T20:48:53+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:23
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:56:15+00:00 CRITICAL Uncaught Error: Class 'WwscUser' not found in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:15
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(29): Wwsc->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): contruct_wwsc('')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/wwsc/wordpress/wp-settings.php(327): do_action('plugins_loaded')
+#5 /var/www/wwsc/wordpress/wp-config.php(90): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-blog-header.php(13): require_once('/var/www/wwsc/w...')
+#8 /var/www/wwsc/wordpress/index.php(17): require('/var/www/wwsc/w...')
+#9 {main}
+  thrown
+
+2018-07-20T20:57:49+00:00 CRITICAL Uncaught Error: Call to undefined function wwsc_get_user_role() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:15
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(29): Wwsc->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): contruct_wwsc('')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/wwsc/wordpress/wp-settings.php(327): do_action('plugins_loaded')
+#5 /var/www/wwsc/wordpress/wp-config.php(90): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-blog-header.php(13): require_once('/var/www/wwsc/w...')
+#8 /var/www/wwsc/wordpress/index.php(17): require('/var/www/wwsc/w...')
+#9 {main}
+  thrown
+
+2018-07-20T20:57:57+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:32
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:58:10+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:32
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:59:37+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:32
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T20:59:46+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:32
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T21:00:00+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:32
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T21:00:18+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:32
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-content/pl
+
+2018-07-20T21:45:56+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_default_products_per_row() in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-query.php:402
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-query.php(339): WC_Query->product_query(Object(WP_Query))
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WC_Query->pre_get_posts(Object(WP_Query))
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/wwsc/wordpress/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-query.php(1634): do_action_ref_array('pre_get_posts', Array)
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-query.php(3230): WP_Query->get_posts()
+#6 /var/www/wwsc/wordpress/wp-includes/class-wp.php(599): WP_Query->query(Array)
+#7 /var/www/wwsc/wordpress/wp-includes/class-wp.php(715): WP->query_posts()
+#8 /var/www/wwsc/wordpress/wp-includes/functions.php(960): WP->main('')
+#
+
+2018-07-20T21:45:57+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_default_products_per_row() in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-query.php:402
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-query.php(339): WC_Query->product_query(Object(WP_Query))
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WC_Query->pre_get_posts(Object(WP_Query))
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/wwsc/wordpress/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-query.php(1634): do_action_ref_array('pre_get_posts', Array)
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-query.php(3230): WP_Query->get_posts()
+#6 /var/www/wwsc/wordpress/wp-includes/class-wp.php(599): WP_Query->query(Array)
+#7 /var/www/wwsc/wordpress/wp-includes/class-wp.php(715): WP->query_posts()
+#8 /var/www/wwsc/wordpress/wp-includes/functions.php(960): WP->main('')
+#
+
+2018-07-20T21:46:00+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_default_products_per_row() in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-query.php:402
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-query.php(339): WC_Query->product_query(Object(WP_Query))
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WC_Query->pre_get_posts(Object(WP_Query))
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/wwsc/wordpress/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-query.php(1634): do_action_ref_array('pre_get_posts', Array)
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-query.php(3230): WP_Query->get_posts()
+#6 /var/www/wwsc/wordpress/wp-includes/class-wp.php(599): WP_Query->query(Array)
+#7 /var/www/wwsc/wordpress/wp-includes/class-wp.php(715): WP->query_posts()
+#8 /var/www/wwsc/wordpress/wp-includes/functions.php(960): WP->main('')
+#
+

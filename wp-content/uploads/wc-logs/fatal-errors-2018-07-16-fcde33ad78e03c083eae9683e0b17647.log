@@ -1,0 +1,139 @@
+2018-07-16T03:03:22+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_user_data() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php:23
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): extract_roles('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-includes/general-template.php(2614): do_action('wp_head')
+#4 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/header.php(21): wp_head()
+#5 /var/www/wwsc/wordpress/wp-includes/template.php(688): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(647): load_template('/var/www/wwsc/w...', true)
+#7 /var/www/wwsc/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(20): get_header('shop')
+#9 /var/www/wwsc/wordpress/wp-includes/templa
+
+2018-07-16T03:52:59+00:00 CRITICAL Uncaught Error: Class 'Wwsc_Widget' not found in /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('Wwsc_Widget')
+#1 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(45): register_widget('Wwsc_Widget')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#3 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/wwsc/wordpress/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/wwsc/wordpress/wp-settings.php(450): do_action('init')
+#10 /var/www/
+
+2018-07-16T03:53:00+00:00 CRITICAL Uncaught Error: Class 'Wwsc_Widget' not found in /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('Wwsc_Widget')
+#1 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(45): register_widget('Wwsc_Widget')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#3 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/wwsc/wordpress/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/wwsc/wordpress/wp-settings.php(450): do_action('init')
+#10 /var/www/
+
+2018-07-16T04:43:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function var_dump_pre(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget.php on line 193 and exactly 1 expected in /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/functions.php:590
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget.php(193): var_dump_pre()
+#1 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): Wwsc_Widget->widget(Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('Wwsc_Widget', Array, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-build
+
+2018-07-16T19:24:29+00:00 CRITICAL Uncaught Error: Class 'WwscUser' not found in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-WwscCustomRules.php:14
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WwscCustomRules::km_get_user_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-includes/general-template.php(2614): do_action('wp_head')
+#4 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/header.php(21): wp_head()
+#5 /var/www/wwsc/wordpress/wp-includes/template.php(688): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(647): load_template('/var/www/wwsc/w...', true)
+#7 /var/www/wwsc/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/front-page.php(15): get_header()
+#9 /var/www/wwsc/wordpress/wp-includes/te
+
+2018-07-16T19:24:33+00:00 CRITICAL Uncaught Error: Class 'WwscUser' not found in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-WwscCustomRules.php:14
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WwscCustomRules::km_get_user_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-includes/general-template.php(2614): do_action('wp_head')
+#4 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/header.php(21): wp_head()
+#5 /var/www/wwsc/wordpress/wp-includes/template.php(688): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(647): load_template('/var/www/wwsc/w...', true)
+#7 /var/www/wwsc/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/front-page.php(15): get_header()
+#9 /var/www/wwsc/wordpress/wp-includes/te
+
+2018-07-16T19:25:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WwscUser::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-WwscCustomRules.php on line 16 and exactly 1 expected in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwscuser.php:11
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-WwscCustomRules.php(16): WwscUser->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WwscCustomRules::km_get_user_role('')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /var/www/wwsc/wordpress/wp-includes/general-template.php(2614): do_action('wp_head')
+#5 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/header.php(21): wp_head()
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(688): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-includes/template.php
+
+2018-07-16T20:49:39+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsccustomrules.php:19
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WwscCustomRules::wwsc_get_user_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-includes/general-template.php(2614): do_action('wp_head')
+#4 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/header.php(21): wp_head()
+#5 /var/www/wwsc/wordpress/wp-includes/template.php(688): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(647): load_template('/var/www/wwsc/w...', true)
+#7 /var/www/wwsc/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/front-page.php(15): get_header()
+#9 /var/www/wwsc/wordpress/
+
+2018-07-16T20:51:51+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsccustomrules.php:19
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WwscCustomRules::wwsc_get_user_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-includes/general-template.php(2614): do_action('wp_head')
+#4 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/header.php(21): wp_head()
+#5 /var/www/wwsc/wordpress/wp-includes/template.php(688): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(647): load_template('/var/www/wwsc/w...', true)
+#7 /var/www/wwsc/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/front-page.php(15): get_header()
+#9 /var/www/wwsc/wordpress/
+
+2018-07-16T20:52:19+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsccustomrules.php:19
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WwscCustomRules::wwsc_get_user_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-includes/general-template.php(2614): do_action('wp_head')
+#4 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/header.php(21): wp_head()
+#5 /var/www/wwsc/wordpress/wp-includes/template.php(688): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(647): load_template('/var/www/wwsc/w...', true)
+#7 /var/www/wwsc/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/front-page.php(15): get_header()
+#9 /var/www/wwsc/wordpress/
+
+2018-07-16T20:55:03+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsccustomrules.php:19
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WwscCustomRules::wwsc_get_user_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-includes/general-template.php(2614): do_action('wp_head')
+#4 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/header.php(21): wp_head()
+#5 /var/www/wwsc/wordpress/wp-includes/template.php(688): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(647): load_template('/var/www/wwsc/w...', true)
+#7 /var/www/wwsc/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/front-page.php(15): get_header()
+#9 /var/www/wwsc/wordpress/
+

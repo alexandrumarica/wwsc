@@ -1,0 +1,26 @@
+2018-07-18T20:07:30+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_default_products_per_row() in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-query.php:402
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-query.php(339): WC_Query->product_query(Object(WP_Query))
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WC_Query->pre_get_posts(Object(WP_Query))
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/wwsc/wordpress/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-query.php(1634): do_action_ref_array('pre_get_posts', Array)
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-query.php(3230): WP_Query->get_posts()
+#6 /var/www/wwsc/wordpress/wp-includes/class-wp.php(599): WP_Query->query(Array)
+#7 /var/www/wwsc/wordpress/wp-includes/class-wp.php(715): WP->query_posts()
+#8 /var/www/wwsc/wordpress/wp-includes/functions.php(960): WP->main('')
+#
+
+2018-07-18T20:08:11+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_default_products_per_row() in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-query.php:402
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-query.php(339): WC_Query->product_query(Object(WP_Query))
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WC_Query->pre_get_posts(Object(WP_Query))
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/wwsc/wordpress/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-query.php(1634): do_action_ref_array('pre_get_posts', Array)
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-query.php(3230): WP_Query->get_posts()
+#6 /var/www/wwsc/wordpress/wp-includes/class-wp.php(599): WP_Query->query(Array)
+#7 /var/www/wwsc/wordpress/wp-includes/class-wp.php(715): WP->query_posts()
+#8 /var/www/wwsc/wordpress/wp-includes/functions.php(960): WP->main('')
+#
+

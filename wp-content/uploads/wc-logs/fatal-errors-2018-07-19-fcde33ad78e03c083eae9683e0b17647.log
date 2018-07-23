@@ -1,0 +1,37 @@
+2018-07-19T10:32:07+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsccustomrules.php:23
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): WwscCustomRules::wwsc_remove_add_to_cart(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wo
+
+2018-07-19T10:37:34+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Roles as array in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsccustomrules.php:21
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WwscCustomRules::wwsc_get_user_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-includes/general-template.php(2614): do_action('wp_head')
+#4 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/header.php(21): wp_head()
+#5 /var/www/wwsc/wordpress/wp-includes/template.php(688): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(647): load_template('/var/www/wwsc/w...', true)
+#7 /var/www/wwsc/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(20): get_header('shop')
+#9 /
+
+2018-07-19T10:37:36+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Roles as array in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsccustomrules.php:21
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): WwscCustomRules::wwsc_get_user_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-includes/general-template.php(2614): do_action('wp_head')
+#4 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/header.php(21): wp_head()
+#5 /var/www/wwsc/wordpress/wp-includes/template.php(688): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(647): load_template('/var/www/wwsc/w...', true)
+#7 /var/www/wwsc/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(20): get_header('shop')
+#9 /
+

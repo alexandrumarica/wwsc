@@ -1,0 +1,898 @@
+2018-07-22T08:44:04+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-07-22T08:44:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-07-22T12:15:09+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on integer in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/loop/sale-flash.php:26
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include()
+#1 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1245): wc_get_template('loop/sale-flash...')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): woocommerce_show_product_loop_sale_flash('')
+#3 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(42): do_action('woocommerce_bef...')
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(690): require('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/
+
+2018-07-22T12:43:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Wwsc::products_are_purchasable(), 1 passed in /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php on line 288 and exactly 2 expected in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:37
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/
+
+2018-07-22T16:28:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 68 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(68): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:28:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 68 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(68): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:29:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 68 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(68): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:29:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 68 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(68): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:30:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 68 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(68): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:31:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:31:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:32:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:33:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:33:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:34:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:34:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:34:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:35:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WWSC_Widget_Products::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php on line 100 and exactly 2 expected in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php:8
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#2 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /var/www/wwsc/wordpress/wp-includes/widgets.php(1649): do_action('widgets_init')
+#7 /var/www/wwsc/wordpress/wp-
+
+2018-07-22T16:35:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 69 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(69): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:40:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 64 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(64): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:40:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 68 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(68): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:41:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 68 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(68): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:41:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 68 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(68): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T16:43:57+00:00 CRITICAL Uncaught Error: Call to undefined method WWSC_Widget_Products::get_cached_widget() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php:158
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#1 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2082): FLBuilder::render_module(Object(stdClass))
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/column.php(3): FLBuilder::render_modules(Object(stdClass)
+
+2018-07-22T18:39:40+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:43
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(23): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-includes/template.php(690): require('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/var/www/wwsc/w...', false)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(72): wc_get_template_part('content', 'product')
+#7 /var/www/wwsc/wordpress/wp-includes/templa
+
+2018-07-22T18:40:09+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:43
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(23): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-includes/template.php(690): require('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/var/www/wwsc/w...', false)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(72): wc_get_template_part('content', 'product')
+#7 /var/www/wwsc/wordpress/wp-includes/templa
+
+2018-07-22T18:40:36+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:36
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_products_are_purchasable(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1458): apply_filters('woocommerce_is_...', true, Object(WC_Product_Simple))
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(491): WC_Product->is_purchasable()
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wc_product_post_class(Array, Array, 13)
+#5 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(640): apply_filters('post_class', Array, Array, 13)
+#7 /var/www/wwsc/wordpress/wp-conte
+
+2018-07-22T18:40:58+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:43
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(23): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-includes/template.php(690): require('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/var/www/wwsc/w...', false)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(72): wc_get_template_part('content', 'product')
+#7 /var/www/wwsc/wordpress/wp-includes/templa
+
+2018-07-22T18:45:11+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:43
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(23): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-includes/template.php(690): require('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/var/www/wwsc/w...', false)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(72): wc_get_template_part('content', 'product')
+#7 /var/www/wwsc/wordpress/wp-includes/templa
+
+2018-07-22T18:46:40+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:43
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(23): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-includes/template.php(690): require('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/var/www/wwsc/w...', false)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(72): wc_get_template_part('content', 'product')
+#7 /var/www/wwsc/wordpress/wp-includes/templa
+
+2018-07-22T18:54:38+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:24
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php(43): Wwsc::wwsc_get_user_role()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(23): WC_Product->is_visible()
+#5 /var/www/wwsc/wordpress/wp-includes/template.php(690): require('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/var/www/wwsc/w...', false)
+#7 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archiv
+
+2018-07-22T18:55:07+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:43
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(23): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-includes/template.php(690): require('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/var/www/wwsc/w...', false)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(72): wc_get_template_part('content', 'product')
+#7 /var/www/wwsc/wordpress/wp-includes/templa
+
+2018-07-22T18:55:21+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:43
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(23): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-includes/template.php(690): require('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/var/www/wwsc/w...', false)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(72): wc_get_template_part('content', 'product')
+#7 /var/www/wwsc/wordpress/wp-includes/templa
+
+2018-07-22T19:16:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function var_dump_pre(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 15 and exactly 1 expected in /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/functions.php:590
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(15): var_dump_pre()
+#1 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lit
+
+2018-07-22T19:23:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_products(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 17 and exactly 1 expected in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-product-functions.php:26
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(17): wc_get_products()
+#1 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plug
+
+2018-07-22T19:32:22+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(26): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+
+2018-07-22T19:33:37+00:00 CRITICAL Uncaught Error: Class 'WWSC_Widget_Products' not found in /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#1 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#3 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/wwsc/wordpress/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/wwsc/wordpress/wp-settings.php(450): do_actio
+
+2018-07-22T19:36:55+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(26): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+
+2018-07-22T20:11:58+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): Wwsc::wwsc_filter_products_visibility('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(25): do_action('woocommerce_pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-
+
+2018-07-22T20:12:32+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): Wwsc::wwsc_filter_products_visibility('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(26): do_action('woocommerce_pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-
+
+2018-07-22T20:13:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Wwsc::wwsc_filter_products_visibility(), 1 passed in /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:38
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): Wwsc::wwsc_filter_products_visibility('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(26): do_action('woocommerce_pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/be
+
+2018-07-22T20:13:32+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): Wwsc::wwsc_filter_products_visibility('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(26): do_action('woocommerce_pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-
+
+2018-07-22T20:29:15+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-widget-product.php:27
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include()
+#1 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(30): wc_get_template('content-widget-...', Array)
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-
+
+2018-07-22T20:29:22+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-widget-product.php:27
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include()
+#1 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(29): wc_get_template('content-widget-...', Array)
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-
+
+2018-07-22T20:32:24+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php:28
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#1 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2082): FLBuilder::render_module(Object(stdClass))
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/column.php(3): FLBuilder::render_modules(Object(stdClass))
+#6 /var/www/wwsc/w
+
+2018-07-22T20:32:53+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Query::have_posts() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php:28
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#1 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2082): FLBuilder::render_module(Object(stdClass))
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/column.php(3): FLBuilder::render_modules(Object(stdClass))
+#6 /var/ww
+
+2018-07-22T20:48:05+00:00 CRITICAL Uncaught Error: Call to undefined function get_products() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php:118
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#1 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2082): FLBuilder::render_module(Object(stdClass))
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/column.php(3): FLBuilder::render_modules(Object(stdClass))
+#6 /var/www/wwsc/wordpr
+
+2018-07-22T20:48:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_products() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php:118
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#1 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2082): FLBuilder::render_module(Object(stdClass))
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/column.php(3): FLBuilder::render_modules(Object(stdClass))
+#6 /var/www/wwsc/wordpr
+
+2018-07-22T20:48:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WWSC_Widget_Products::get_products(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 118 and exactly 2 expected in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php:16
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(118): WWSC_Widget_Products->get_products()
+#1 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w.
+
+2018-07-22T20:52:31+00:00 CRITICAL Uncaught Error: Call to undefined method WWSC_Widget_Products::widget_start() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php:179
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#1 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2082): FLBuilder::render_module(Object(stdClass))
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/column.php(3): FLBuilder::render_modules(Object(stdClass))
+#6 
+
+2018-07-22T20:53:09+00:00 CRITICAL Uncaught Error: Call to undefined method WWSC_Widget_Products::cache_widget() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php:196
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#1 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2082): FLBuilder::render_module(Object(stdClass))
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/column.php(3): FLBuilder::render_modules(Object(stdClass))
+#6 
+
+2018-07-22T21:03:59+00:00 CRITICAL Uncaught Error: Call to undefined method WWSC_Widget_Products::cache_widget() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php:197
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#1 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder-ajax-layout.php(448): FLBuilder::render_module(Object(FLWidgetModule))
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder-ajax-layout.php(45): FLBuilde
+
+2018-07-22T21:21:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 60 and at least 2 expected in /var/www/wwsc/wordpress/wp-includes/class-wp-widget.php:162
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(60): WP_Widget->__construct()
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-widget-factory.php(100): WWSC_Widget_Products->__construct()
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('WWSC_Widget_Pro...')
+#3 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php(47): register_widget('WWSC_Widget_Pro...')
+#4 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): wwsc_register_widgets('')
+#5 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7
+
+2018-07-22T22:24:54+00:00 CRITICAL Cannot redeclare wwsc_register_widgets() (previously declared in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php:45)
+
+2018-07-22T22:26:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function plugin_dir_path(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php on line 172 and exactly 1 expected in /var/www/wwsc/wordpress/wp-includes/plugin.php:720
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(172): plugin_dir_path()
+#1 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes
+
+2018-07-22T22:36:09+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:41
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(23): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-includes/template.php(690): require('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/var/www/wwsc/w...', false)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(72): wc_get_template_part('content', 'product')
+#7 /var/www/wwsc/wordpress/wp-includes/t
+
+2018-07-22T22:43:10+00:00 CRITICAL Uncaught Error: Call to undefined function apply_filter() in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-widget-product.php:38
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include()
+#1 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-products.php(201): wc_get_template('content-widget-...', Array)
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WC_Widget_Products->widget(Array, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WC_Widget_Produ...', Array, Array)
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite
+
+2018-07-22T22:43:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/functions.php:602
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-widget-product.php(38): do_action('woocommerce_loo...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-products.php(201): wc_get_template('content-widget-...', Array)
+#6 
+
+2018-07-22T22:43:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/functions.php:602
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): quantity_inputs_for_woocommerce_loop_add_to_cart_link(Object(WC_Product_Simple))
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-widget-product.php(38): do_action('woocommerce_loo...', Object(WC_Product_Simple))
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-products.php(201)
+
+2018-07-22T22:44:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/functions.php:602
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-widget-product.php(38): do_action('woocommerce_loo...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-products.php(201): wc_get_template('content-widget-...', Array)
+#6 
+
+2018-07-22T22:44:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/functions.php:602
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/content-widget-product.php(38): do_action('woocommerce_loo...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-products.php(201): wc_get_template('content-widget-...', Array)
+#6 
+
+2018-07-22T22:44:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 0 passed in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/templates/content-widget-product.php on line 22 and exactly 2 expected in /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/functions.php:602
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/templates/content-widget-product.php(22): quantity_inputs_for_woocommerce_loop_add_to_cart_link()
+#1 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(172): include('/var/www/wwsc/w...')
+#2 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#5 /var/w
+
+2018-07-22T23:24:31+00:00 CRITICAL Uncaught Error: Call to undefined method WWSC_Widget_Products::exists() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/templates/content-widget-product.php:13
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/widgets/class-wwsc-widget-products.php(172): include()
+#1 /var/www/wwsc/wordpress/wp-includes/widgets.php(1086): WWSC_Widget_Products->widget(Array, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/modules/widget/includes/frontend.php(31): the_widget('WWSC_Widget_Pro...', Array, Array)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/includes/module.php(9): include('/var/www/wwsc/w...')
+#4 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2118): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/beaver-builder-lite-version/classes/class-fl-builder.php(2082): FLBuilder::render_module(Object(stdClass))
+#6 /var/www/wwsc/wordpress/wp-content/plugins/be
+

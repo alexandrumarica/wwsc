@@ -1,0 +1,129 @@
+2018-07-13T12:00:34+00:00 CRITICAL Uncaught Error: Call to undefined function ___() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php:21
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): Wwsc::wwsc_add_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-settings.php(450): do_action('init')
+#4 /var/www/wwsc/wordpress/wp-config.php(89): require_once('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-blog-header.php(13): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/index.php(17): require('/var/www/wwsc/w...')
+#8 {main}
+  thrown
+
+2018-07-13T12:00:54+00:00 CRITICAL Uncaught Error: Call to undefined function ___() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php:21
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): Wwsc::wwsc_add_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-settings.php(450): do_action('init')
+#4 /var/www/wwsc/wordpress/wp-config.php(89): require_once('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-blog-header.php(13): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/index.php(17): require('/var/www/wwsc/w...')
+#8 {main}
+  thrown
+
+2018-07-13T12:00:55+00:00 CRITICAL Uncaught Error: Call to undefined function ___() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php:21
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): Wwsc::wwsc_add_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-settings.php(450): do_action('init')
+#4 /var/www/wwsc/wordpress/wp-config.php(89): require_once('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-blog-header.php(13): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/index.php(17): require('/var/www/wwsc/w...')
+#8 {main}
+  thrown
+
+2018-07-13T12:01:00+00:00 CRITICAL Uncaught Error: Call to undefined function ___() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/wwsc.php:21
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): Wwsc::wwsc_add_role('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-settings.php(450): do_action('init')
+#4 /var/www/wwsc/wordpress/wp-config.php(89): require_once('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-blog-header.php(13): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/index.php(17): require('/var/www/wwsc/w...')
+#8 {main}
+  thrown
+
+2018-07-13T12:01:14+00:00 CRITICAL Uncaught Error: Call to a member function is_purchasable() on null in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php:22
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include()
+#1 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1506): wc_get_template('single-product/...')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): woocommerce_simple_add_to_cart('')
+#3 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/wwsc/wordpress/wp-settings.php(450): do_action('init')
+#6 /var/www/wwsc/wordpress/wp-config.php(89): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#8 /var/www/wwsc/wordpress/wp-blog-header.php(13): require_once('/var/www/wwsc/w...')
+
+
+2018-07-13T12:01:16+00:00 CRITICAL Uncaught Error: Call to a member function is_purchasable() on null in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php:22
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include()
+#1 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1506): wc_get_template('single-product/...')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): woocommerce_simple_add_to_cart('')
+#3 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/wwsc/wordpress/wp-settings.php(450): do_action('init')
+#6 /var/www/wwsc/wordpress/wp-config.php(89): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#8 /var/www/wwsc/wordpress/wp-admin/admin-ajax.php(22): require_once('/var/www/wwsc/w.
+
+2018-07-13T12:01:50+00:00 CRITICAL Uncaught Error: Call to a member function is_purchasable() on null in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php:22
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include()
+#1 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1506): wc_get_template('single-product/...')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): woocommerce_simple_add_to_cart('')
+#3 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/wwsc/wordpress/wp-settings.php(450): do_action('init')
+#6 /var/www/wwsc/wordpress/wp-config.php(89): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#8 /var/www/wwsc/wordpress/wp-admin/admin.php(31): require_once('/var/www/wwsc/w...')
+
+
+2018-07-13T12:01:51+00:00 CRITICAL Uncaught Error: Call to a member function is_purchasable() on null in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php:22
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include()
+#1 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1506): wc_get_template('single-product/...')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): woocommerce_simple_add_to_cart('')
+#3 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/wwsc/wordpress/wp-settings.php(450): do_action('init')
+#6 /var/www/wwsc/wordpress/wp-config.php(89): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#8 /var/www/wwsc/wordpress/wp-admin/admin.php(31): require_once('/var/www/wwsc/w...')
+
+
+2018-07-13T12:01:53+00:00 CRITICAL Uncaught Error: Call to a member function is_purchasable() on null in /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php:22
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include()
+#1 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1506): wc_get_template('single-product/...')
+#2 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): woocommerce_simple_add_to_cart('')
+#3 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/wwsc/wordpress/wp-settings.php(450): do_action('init')
+#6 /var/www/wwsc/wordpress/wp-config.php(89): require_once('/var/www/wwsc/w...')
+#7 /var/www/wwsc/wordpress/wp-load.php(37): require_once('/var/www/wwsc/w...')
+#8 /var/www/wwsc/wordpress/wp-admin/admin.php(31): require_once('/var/www/wwsc/w...')
+
+
+2018-07-13T14:26:37+00:00 CRITICAL Uncaught Error: Call to undefined function var_dump_pre() in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/class-wwsc.php:46
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(286): Wwsc::wwsc_get_data('')
+#1 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wwsc/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/wwsc/wordpress/wp-includes/general-template.php(2614): do_action('wp_head')
+#4 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/header.php(22): wp_head()
+#5 /var/www/wwsc/wordpress/wp-includes/template.php(688): require_once('/var/www/wwsc/w...')
+#6 /var/www/wwsc/wordpress/wp-includes/template.php(647): load_template('/var/www/wwsc/w...', true)
+#7 /var/www/wwsc/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/wwsc/wordpress/wp-content/themes/twentyseventeen/front-page.php(15): get_header()
+#9 /var/www/wwsc/wordpress/wp-includes/template-loader.php(7
+

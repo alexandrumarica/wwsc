@@ -1,0 +1,99 @@
+2018-07-23T06:22:35+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/cart/mini-cart.php(40): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1994): wc_get_template('cart/mini-cart....', Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(171): woocommerce_mini_cart()
+#7 /var/www/wwsc/w
+
+2018-07-23T06:22:51+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/cart/mini-cart.php(40): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1994): wc_get_template('cart/mini-cart....', Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(171): woocommerce_mini_cart()
+#7 /var/www/wwsc/w
+
+2018-07-23T06:22:55+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/cart/mini-cart.php(40): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1994): wc_get_template('cart/mini-cart....', Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(171): woocommerce_mini_cart()
+#7 /var/www/wwsc/w
+
+2018-07-23T06:22:59+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/cart/mini-cart.php(40): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1994): wc_get_template('cart/mini-cart....', Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(171): woocommerce_mini_cart()
+#7 /var/www/wwsc/w
+
+2018-07-23T06:23:07+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/cart/mini-cart.php(40): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1994): wc_get_template('cart/mini-cart....', Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(171): woocommerce_mini_cart()
+#7 /var/www/wwsc/w
+
+2018-07-23T06:23:14+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/cart/mini-cart.php(40): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1994): wc_get_template('cart/mini-cart....', Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(171): woocommerce_mini_cart()
+#7 /var/www/wwsc/w
+
+2018-07-23T06:27:37+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/cart/mini-cart.php(40): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1994): wc_get_template('cart/mini-cart....', Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(171): woocommerce_mini_cart()
+#7 /var/www/wwsc/w
+
+2018-07-23T06:27:41+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/cart/mini-cart.php(40): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1994): wc_get_template('cart/mini-cart....', Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(171): woocommerce_mini_cart()
+#7 /var/www/wwsc/w
+
+2018-07-23T06:27:43+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in /var/www/wwsc/wordpress/wp-content/plugins/wwsc/includes/class-wwsc.php:42
+Stack trace:
+#0 /var/www/wwsc/wordpress/wp-includes/class-wp-hook.php(288): Wwsc::wwsc_filter_products_visibility(true)
+#1 /var/www/wwsc/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1449): apply_filters('woocommerce_pro...', true, 13)
+#3 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/templates/cart/mini-cart.php(40): WC_Product->is_visible()
+#4 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/var/www/wwsc/w...')
+#5 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1994): wc_get_template('cart/mini-cart....', Array)
+#6 /var/www/wwsc/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(171): woocommerce_mini_cart()
+#7 /var/www/wwsc/w
+
